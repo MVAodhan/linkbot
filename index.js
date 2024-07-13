@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const { WebhookClient } = require("discord.js");
 const tmi = require("tmi.js");
 
